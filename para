@@ -1,0 +1,19 @@
+class demo
+{
+	demo()
+	    { 
+		System.out.println("derived class");
+	     }
+	demo(int a)
+	   {
+		this();
+		System.out.println("parameterised class");
+	    }
+}
+public class para
+{
+	public static void main(String[] x)
+	{
+		demo obj=new demo(5);
+	}
+}
